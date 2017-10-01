@@ -10,8 +10,8 @@ develop with and administer TFS 2015.
 
 **Team Foundation Server 2015 Training Prerequisites**
 
-Attendees must be comfortable using Windows Server 2012, SQL Server 2012,
-SharePoint 2013, and Visual Studio 2015, and be able to read and understand C\#
+Attendees must be comfortable using Windows Server 2012, SQL Server 2014,
+SharePoint 2013, and Visual Studio 2015 / 2017, and be able to read and understand C\#
 code.
 
 **Team Foundation Server 2015 Training Materials**
@@ -20,7 +20,7 @@ All Team Foundation Server training students receive comprehensive courseware.
 
 **Software Needed on Each Student PC**
 
--   Visual Studio 2015 with the latest update
+-   Visual Studio 2015 / 2017 with the latest updates
 
 -   Access to a Team Foundation Server 2015 instance
 
@@ -38,7 +38,7 @@ All Team Foundation Server training students receive comprehensive courseware.
 
 -   Create, link, query, and manage work items
 
--   Plan and tack work
+-   Plan and track work
 
 -   Conduct code reviews
 
@@ -56,87 +56,93 @@ All Team Foundation Server training students receive comprehensive courseware.
     
     -   TFS Versions, Editions, and Licensing
 
-    -   Client Tools
+    -   Changes Across Versions
 
-    -   Changes across Versions
+    -   TFS Architecture
+
+    -   Client Tools
 
 -   Team Projects (Developer)
 
     -   What’s new in Visual Studio 2015 and 2017
 
-    -   Team project collections and team projects
+    -   TFS Developer Tools
 
-    -   Configure security, team, areas, and iterations
+    -   Overview of Team Project Collections
 
-    -   Planning, renaming, and deleting team projects
+    -   Planning Team Projects
 
-    -   Use Team Explorer and Team Web Access
+    -   Creating, Renaming, and Deleting Team Projects
 
--   Planning and Tracking Work (Developer)
+    -   Teams, Areas, Iterations, and Security
+
+-   TFS and Agile (Developer)
+
+    -   Using Agile and Scrum with TFS
 
     -   Quick Overview of Work in TFS (Jira is Fuzion's Preferred Tool)
 
     -   Process Templates
 
-    -   Use Agile (backlog, Kanban, and task boards)
+    -   Reports in TFS
 
-    -   Use a Team Room to collaborate with others
+    -   SharePoint Integration in TFS
+
+    -   Use a Team Room to Collaborate
 
 -   Using Git for Version Control (Developer)
 
-    -   Git concepts and overview
+    -   Git Concepts and Overview
 
-    -   Create and clone a Git repository
+    -   Create and Clone a Git Repo
 
-    -   Basic and advanced Git workflows
+    -   Basic and Advanced Git Workflows
 
-    -   Create and merge branches, send pull requests
+    -   Create and Merge Branches
 
-    -   Administer and troubleshoot Git
+    -   Pull Requests
 
 -   Ensuring Code Quality (Developer)
 
-    -   Create, run, and refactor C\# unit tests
+    -   Create, Run, and Refactor C\# Unit Tests
 
     -   Calculate Code Coverage
 
-    -   Use Code Metrics and Code/Code Clone Analysis
+    -   Use Code Metrics and Code / Clone Analysis
 
     -   Conduct a Code Review
 
 -   Automating the Build Process (Developer)
 
-    -   Overview of the new Visual Studio 2015 build system
+    -   Overview of the New Team Build System
 
-    -   Create and queue a build
+    -   Create and Queue a Build
 
-    -   Monitor and manage the build process
+    -   Monitor and Manage the Build Process
 
-    -   Automate code quality checks
+    -   Automate Code Quality Checks
 
 -   Introduction to Team Foundation Server (Admin)
 
-    -   Editions, components, and configurations
+    -   TFS Versions, Editions, and Configurations
 
-    -   Visual Studio Online comparison
+    -   VSTS and TFS Comparison
 
-    -   TFS' support of Application Lifecycle Management
+    -   TFS and Application Lifecycle Management
 
-    -   TFS administrator responsibilities and tasks
+    -   TFS Administrator Responsibilities and Tasks
 
-    -   “Must-have” tools of a TFS administrator
-
-    -   Client Tools
+    -   TFS Administrator Tools
 
 -   Planning and Deploying TFS (Admin)
 
-    -   Planning the deployment
+    -   Planning the Deployment
 
-    -   System requirements, software, and accounts
+    -   System Requirements, Software, and Accounts
 
-    -   Installing and configuring TFS
+    -   SQL Server, Reporting Services and SharePoint
 
-    -   Installing Team Explorer
+    -   Installing and Configuring TFS
 
     -   Installing TFS Power Tools
 
@@ -144,88 +150,88 @@ All Team Foundation Server training students receive comprehensive courseware.
 
 -   Configuring TFS (Admin)
 
-    -   Administrator roles and tools
+    -   Administrator Roles and Tools
 
-    -   Managing team project collections
+    -   Managing Team Project Collections
 
-    -   Managing team projects
+    -   Managing Team Projects
 
-    -   Managing process templates
+    -   Managing Process Templates
 
     -   Securing TFS, SharePoint, and SQL Server
 
-    -   Using the community TFS Admin Tool
-
-    -   Renaming and deleting a team project
+    -   Using the TFS Admin Tool
 
 -   Client Applications (Admin)
 
     -   TFS Client Access Licenses (CAL)
 
-    -   Team Explorer and Team Web Access
+    -   VS Team Explorer and Team Web Access
 
-    -   Microsoft Excel and Microsoft Project
+    -   Microsoft Excel, PowerPoint, and Project
 
-    -   SharePoint project portal
+    -   SharePoint Project Portal
 
-    -   Command-line and 3rd party tools
+    -   Command-line and 3rd Party Tools
 
 -   Version Control (Admin)
 
-    -   Overview of Git and TFVC version control systems
+    -   Overview of Git and TFVC Version Control Systems
 
     -   Integration with Visual Studio
 
-    -   Setting up and configuring Git version control
+    -   Setting Up and Configuring Git Version Control
 
-    -   Basic and advanced workflows
+    -   Basic and Advanced Workflows
 
-    -   Controlling access to version control
+    -   Controlling Access to Version Control
 
-    -   TF and TFPT command-line tools
+    -   TF and TFPT Command-Line Tools
 
     -   TFS Proxy and MSSCCI Provider
 
     -   TFS Sidekicks
 
+    -   Administer and Troubleshoot Git
+
 -   Team Foundation Build (Admin)
 
-    -   Build agents and agent pools
+    -   Build Agents and Agent Pools
 
-    -   Creating, queuing, monitoring, and managing a build
+    -   Creating, Queuing, Monitoring, and Managing a Build
 
-    -   Securing the build process
+    -   Securing the Build Process
 
-    -   Using gated check-in and private builds
+    -   Using Gated Check-in and Private Builds
 
-    -   Customizing the build process
+    -   Customizing the Build Process
 
 -   Upgrading, Migrating, and Integrating (Admin)
 
     -   Upgrading Team Foundation Server
 
-    -   Standard vs. advanced upgrades
+    -   Standard vs. Advanced Upgrades
 
-    -   Performing post-upgrade tasks
+    -   Performing Post-Upgrade Tasks
 
-    -   Migrating work items and version controlled items
+    -   Migrating Work Items and Version Controlled Items
 
     -   Integrating with Team Foundation Server
 
-    -   Custom and 3rd party solutions
+    -   Custom and 3rd Party Solutions
 
 -   Advanced Administration (Admin)
 
-    -   Monitoring the health of Team Foundation Server
+    -   Monitoring the Health of Team Foundation Server
 
-    -   Options for scalability and high availability
+    -   Options for Scalability and High Availability
 
-    -   Disaster recovery, backup, and restore
+    -   Disaster Recovery, Backup, and Restore
 
     -   Moving Team Foundation Server
 
-    -   Managing the data warehouse
+    -   Managing the Data Warehouse
 
-    -   Using PowerShell to manage TFS
+    -   Using PowerShell to Manage TFS
 
 Conclusion
