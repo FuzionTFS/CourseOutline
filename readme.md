@@ -64,8 +64,6 @@ All Team Foundation Server training students receive comprehensive courseware.
 
 -   Team Projects (Developer)
 
-    -   What’s new in Visual Studio 2015 and 2017
-
     -   TFS Developer Tools
 
     -   Overview of Team Project Collections
